@@ -1,0 +1,24 @@
+.conteudoChat{
+    padding: 0px 10px 0px 10px;
+}
+.chatOperadora{
+    color: #000;
+    background-color: rgba(237,237,237, 0.45);
+    border: 1px solid #ccc;;
+    border-radius: 10px 10px 10px 0px;
+    -moz-border-radius: 10px 10px 10px 0px;
+    -webkit-border-radius: 10px 10px 10px 0px;    
+}
+
+.chatBeneficiario{
+    background-color: #245F40;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+    -moz-border-radius: 10px 10px 0px 10px;
+    -webkit-border-radius: 10px 10px 0px 10px;  
+}
+
+.dtChat{
+    font-size: 0.65em;
+    color: #7a7a7a;
+}

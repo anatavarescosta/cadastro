@@ -1,0 +1,239 @@
+.centraliza-loading{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    top: 45%;
+    left: 48%;
+}
+#loading{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(1, 94, 83, 0.301);
+    z-index: 3000;
+}
+.c-loader {
+    animation: is-rotating 1s infinite;
+    border: 6px solid #bbcf35;
+    border-radius: 50%;
+    border-top-color: #008c50;
+    height: 80px;
+    width: 80px;
+}  
+@keyframes is-rotating {
+    to {
+      transform: rotate(1turn);
+    }
+}
+.material-symbols-outlined{
+    font-size: 32px !important;
+}
+/* TOPO DA PÁGINA */
+.nome-sistema{
+    color: #fff;
+}
+.centraliza-elemento{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* /// FORM /// */
+.campo_obrigatorio{
+    background-color: #f7f6b5;
+}
+select {
+    width: 99%;
+    border: 1px solid #ccc;
+    margin: 0;
+    padding:0.4em 0.2em 0.4em 0.2em ;
+    text-indent: 0.3em;
+        
+    color: #474647;
+    background-color: #fff;
+        
+    border-radius: 10px 10px 0px 10px;
+    -moz-border-radius: 10px 10px 0px 10px;
+    -webkit-border-radius: 10px 10px 0px 10px; 
+    cursor: hand;
+}
+label{
+    color: #474647;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+input[type=checkbox]{
+    width: 15px;
+    height: 15px;
+    color: #474647;
+    background-color: #eee;
+}
+input[type=checkbox]:checked{
+    color: #dadada;
+    background-color: #025e53;
+}
+input[type=text], input[type=password], input[type=file], input[type=email]{
+    width: 99%; 
+    height: 2.3em;
+    color: #474647;
+    background-color: #fff;
+    margin: 0;   
+    padding: 0.4em;
+    text-indent: 0.3em;
+    
+    border: 1px solid #ccc;
+    border-radius: 10px 10px 0px 10px;
+    -moz-border-radius: 10px 10px 0px 10px;
+    -webkit-border-radius: 10px 10px 0px 10px;
+    cursor: hand;
+}
+button, input[type=button], input[type=reset] {
+    height: 2.3em;
+    font-size: 1em;
+    padding: 0.4em;
+    
+    border-radius: 7px;
+    -moz-border-radius:  7px;
+    -webkit-border-radius:  7px;
+       
+    border-radius: 10px 10px 10px 0px !important;
+    -moz-border-radius: 10px 10px 10px 0px !important;
+    -webkit-border-radius: 10px 10px 10px 0px !important;
+    
+    border-top:  1px solid #f7f7f7;
+    border-left:  1px solid #f7f7f7;
+    border-right:  1px solid #ccc;
+    border-bottom: 1px solid #ccc;   
+}
+button:hover, input[type=button]:hover, input[type=reset]:hover {
+    opacity: 0.75;
+}
+label{
+    padding: 0px;
+}
+textarea{
+    width: 99%; 
+    color: #474647;
+    background-color: #fff;
+    margin: 0;   
+    padding: 0.4em;
+    text-indent: 0.3em;
+    
+    border: 1px solid #ccc;
+    border-radius: 10px 10px 0px 10px !important;
+    -moz-border-radius: 10px 10px 0px 10px !important;
+    -webkit-border-radius: 10px 10px 0px 10px !important;
+    cursor: hand;
+}
+.fancySearchRow th input{
+    width: 99%; 
+    height: 2.3em;
+    color: #474647;
+    background-color: #fff;
+    margin: 0;   
+    padding: 0.4em;
+    text-indent: 0.3em;
+    
+    border: 1px solid #ccc;
+    border-radius: 10px 10px 0px 10px;
+    -moz-border-radius: 10px 10px 0px 10px;
+    -webkit-border-radius: 10px 10px 0px 10px;
+    cursor: hand;    
+}
+.btn-danger{
+    border: 1px solid #fff !important;
+}
+
+/* /// FORM /// */
+.font-vermelho{
+    color: red;
+}
+.font-verde{
+    color: green;
+}
+.bem-vindo{
+    text-align: end;
+    color: #000;
+    background-color: #f9f9f9;
+    border-bottom: #ccc 1px solid;
+}
+.bem-vindo a{
+    color: #000;
+    text-decoration: underline;
+}
+
+.blocoAcessoRapido{
+    border: 4px solid #fff;
+    border-radius: 10px 10px 10px 10px !important;
+    -moz-border-radius: 10px 10px 10px 10px !important;
+    -webkit-border-radius: 10px 10px 10px 10px !important;    
+}
+.iconeAcessoRapido{
+    font-size: 5em !important;
+    color: #fff;
+    margin-left: -10px;
+    margin-top: 5px;
+}
+.tituloAcessoRapido{
+    padding: 15px 10px 10px 10px;
+}
+.tituloAcessoRapido b a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.titulo-linha{
+    border-bottom: 1px solid #ccc;
+}
+.bloco{
+    padding: 10px;
+    width: 100vw;
+    background-color: rgba(237,237,237, 0.45);
+    border: 1px solid #ccc;;
+}
+#envAnx{
+    cursor: pointer;
+}
+
+.accordion-button:hover{
+    color: #000 !important;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #474647 !important;
+    box-shadow: none !important;
+    color: #000 !important;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: #fff !important;
+    /*box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color)*/;
+  }
+
+.msgOperadora{
+    border-radius: 10px 10px 10px 0px;
+    -moz-border-radius: 10px 10px 10px 0px;
+    -webkit-border-radius: 10px 10px 10px 0px;
+}
+.msgBeneficiario{
+    border-radius: 10px 10px 0px 10px;
+    -moz-border-radius: 10px 10px 0px 10px;
+    -webkit-border-radius: 10px 10px 0px 10px; 
+}
+
+.cursorPointer{
+    cursor: pointer;
+}
+
+.select2-container--default .select2-selection--single{
+    padding-top: 3px;
+    height: 2.3em !important;
+    
+    border: 1px solid #ccc !important;
+    border-radius: 10px 10px 0px 10px !important;
+    -moz-border-radius: 10px 10px 0px 10px !important;
+    -webkit-border-radius: 10px 10px 0px 10px !important;
+}
+

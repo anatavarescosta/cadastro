@@ -1,0 +1,223 @@
+/* /////////////////////// */
+/*   CORES PADRÃO UNIMED   */
+/* /////////////////////// */
+
+/* verde bandeira */
+.verdeb {
+  background-color: #008c50 !important;
+}
+
+.verdeb-txt {
+  color: #008c50 !important;
+}
+
+/* verde bandeira light */
+.verdeb-light {
+  background-color: #88c2a2 !important;
+}
+
+.verdeb-light-txt {
+  color: #88c2a2 !important;
+}
+
+/* verde citrico */
+.citrico {
+  background-color: #bbcf35 !important;
+}
+
+.citrico-txt {
+  color: #bbcf35 !important;
+}
+
+/* verde musgo */
+.musgo {
+  background-color: #0a3e1f !important;
+}
+
+.musgo-txt {
+  color: #0a3e1f !important;
+}
+
+/* verde petroleo */
+.petroleo {
+  background-color: #015f54 !important;
+}
+
+.petroleo-txt {
+  color: #015f54 !important;
+}
+
+/* roxo */
+.roxo {
+  background-color: #46195f !important;
+}
+
+.roxo-txt {
+  color: #46195f !important;
+}
+
+/* violeta */
+.violeta {
+  background-color: #a61680 !important;
+}
+
+.violeta-txt {
+  color: #a61680 !important;
+}
+
+/* magenta */
+.magenta {
+  background-color: #e40046 !important;
+}
+
+.magenta-txt {
+  color: #e40046 !important;
+}
+
+/* laranja */
+.laranja {
+  background-color: #ed7203 !important;
+}
+
+.laranja-txt {
+  color: #ed7203 !important;
+}
+
+/* amarelo */
+.amarelo {
+  background-color: #ffcb00 !important;
+}
+
+.amarelo-txt {
+  color: #ffcb00 !important;
+}
+
+/* ouro */
+.ouro {
+  background-color: #dbac00 !important;
+}
+
+.ouro-txt {
+  color: #dbac00 !important;
+}
+
+/* prata */
+.prata {
+  background-color: #a4a3a3 !important;
+}
+
+.prata-txt {
+  color: #a4a3a3 !important;
+}
+/* bronze */
+.bronze {
+  background-color: #b13a0b !important;
+}
+
+.bronze-txt {
+  color: #b13a0b !important;
+}
+/* bege */
+.bege {
+  background-color: #efe1c0 !important;
+}
+
+.bege-txt {
+  color: #efe1c0 !important;
+}
+/* marrom */
+.marrom {
+  background-color: #6a340e !important;
+}
+
+.marrom-txt {
+  color: #6a340e !important;
+}
+/* grafite */
+.grafite {
+  background-color: #66656c !important;
+}
+
+.grafite-txt {
+  color: #66656c !important;
+}
+
+/* cinza */
+.cinza {
+  background-color: #d0d4d7 !important;
+}
+
+.cinza-txt {
+  color: #d0d4d7 !important;
+}
+/* azul */
+.azul {
+  background-color: #0096d2 !important;
+}
+
+.azul-txt {
+  color: #0096d2 !important;
+}
+/* branco */
+.branco {
+  background-color: #ffffff !important;
+}
+
+.branco-txt {
+  color: #ffffff !important;
+}
+
+.txtBold{
+	font-weight: bold;
+}
+
+.txtBolder{
+	font-weight: bolder;
+}
+
+.txtSemibold{
+	font-weight:600;
+}
+
+.txtlighter{
+	font-weight:lighter;
+}
+
+.alerta-atencao{
+  background-color: #FFF0C7;
+  color: #245F40;
+  border-color: #FDD9BB;
+}
+
+.alerta-informativo{
+  background-color: rgba(237,237,237, 1);
+  color: #245F40;
+  border-color: #9EA0A8;
+}
+
+.btn-primary{
+  background-color: #00995D !important;
+  border-color: #00995D !important;
+  color: #FFF !important;
+}
+
+.btn-primary:hover{
+  background-color: #00995D !important;
+  border-color: #00995D !important;
+  color: #FFF !important;
+}
+
+.linkDocComPrincipal{
+  border: 0 !important;
+  padding: 0 !important;
+  display: inline !important;
+  background: none !important;
+  text-decoration: underline !important;
+  color: #245F40 !important;
+}
+.linkDocComPrincipal:hover {
+  cursor: pointer !important;
+}
+
+/* /// FIM /// */
+

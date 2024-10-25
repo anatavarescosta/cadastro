@@ -1,0 +1,10 @@
+Options -Indexes
+RewriteEngine On
+
+# Redirecionar para a página principal
+# RewriteRule ^$ index.php [R=301,L]
+
+# Roteamento para o script rt.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ rt.php?url=$1 [NC,L]

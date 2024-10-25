@@ -1,0 +1,17 @@
+.pergunta-atendimento{
+    font-size: 0.90em !important;
+}
+.linhaArquivo{
+    display: flex;
+}
+@media screen AND (max-width: 480px){
+    input, select{
+        margin-bottom: 10px !important;
+    }
+}
+
+.linkAnexos{
+    text-decoration: none;
+    color: #00995D;
+}
+

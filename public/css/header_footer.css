@@ -1,0 +1,210 @@
+/* ///////////////////////////// */
+/*       IMAGNES PÁGINAS         */
+/* //////////////////////////// */
+.img-marca{
+	background-image:url("../images/marca-unimed-recife.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 200px;
+	height: 70px;
+}
+@media screen and (max-width: 480px) {
+    .img-marca{
+        width: 160px;
+	    height: 50px;
+    }
+}
+/************/
+/* NAVBAR   */
+/************/
+nav{
+	background-color: rgba(0,139,90,.8);
+}
+#acessb {
+    background-color: #BBD034;
+    width: 100%;
+    height: 2.1em;
+    top: 0;
+    display: flex;
+    position: relative;
+    margin: 0;
+    padding: 0;    
+}
+#acessb ul li a{		
+	color: #008C50;
+}
+#acessb ul li a:hover{
+	color: #C9E2D3;
+}
+#acessb ul{  
+    margin: 0;
+    padding: 0 1em 0 0;	
+    vertical-align: middle;      
+}
+#acessb img{
+    background-color: #008c50;
+    margin: 0;
+    padding: 0;
+    height: 2em;
+    vertical-align: middle;
+    border-radius: 5px 5px 5px 5px;
+   -moz-border-radius: 5px 5px 5px 5px;
+   -webkit-border-radius: 5px 5px 5px 5px;
+}
+#acessb ul li{
+    list-style-type: none
+}
+#acessb ul li a{
+    text-decoration:none;
+}
+.fixo {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    border: 1px solid green;
+}
+@media screen and (min-width: 1920px) {	
+	#acessb ul{
+		width: 100%;
+	}
+	#acessb ul li{
+		float: right;
+		margin-top: 0.2em;	 	
+		margin-left: 0.5em;
+		position: relative;
+	}
+	#acessb ul li a{
+		font-size: 0.8em;
+        vertical-align: middle;
+	}	
+    .navbar {
+        height: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 0;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1919px) {
+    #acessb ul{
+		width: 100%;
+	}
+	#acessb ul li{
+		float: right;
+		margin-top: 0.2em;	 	
+		margin-left: 0.5em;
+		position: relative;
+	}
+	#acessb ul li a{
+		font-size: 0.8em;
+        vertical-align: middle;
+	}	
+    .navbar {
+        height: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 0;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1366px) {	    
+	#acessb ul{
+		width: 100%;
+        text-align: center;
+	}
+	#acessb ul li{
+		float: right;
+		margin-top: 0.2em;	 	
+		margin-left: 0.5em;
+		position: relative;
+	}
+	#acessb ul li a{
+		font-size: 0.8em;
+	}
+    .navbar {
+        height: 80px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 0;
+    }
+}
+@media screen and (min-width: 801px) and (max-width: 1024px) {	
+   	#acessb ul{
+		width: 100%;
+        text-align: center;
+	}
+	#acessb ul li{
+		float: right;
+		margin-top: 0.2em;	 	
+		margin-left: 0.5em;
+		position: relative;
+	}
+	#acessb ul li a{
+		font-size: 0.8em;
+	}
+    .navbar {
+        height: 80px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 0;
+    }
+    .dropdown-mn{
+        position: absolute;
+        list-style: none; 
+        display: inline-table;	
+        float:left;    
+        bottom: 0;
+        margin: 0 0 0 10px !important;  
+        left: 12em !important;
+        z-index: 99;    
+    } 
+}
+@media screen and (max-width: 800px) {	
+        #acessb ul{
+        width: 100%;
+        text-align: center;
+    }
+    #acessb ul li{
+        float: right;
+        margin-top: 0.2em;	 	
+        margin-left: 0.5em;
+        position: relative;
+    }
+    #acessb ul li a{
+        font-size: 0.8em;
+    }
+    .navbar {
+        height: 80px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 0;
+    }
+    .dropdown-mn{
+        position: absolute;
+        list-style: none; 
+        display: inline-table;	
+        float:left;    
+        bottom: 0;
+        margin: 0 0 0 10px !important;  
+        left: 16em !important;
+        z-index: 99;    
+    } 
+    .ocult{
+        display: none;
+    }
+}
+
+.navbar-toggler {
+    font-size: 1em;
+    border-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 100%;
+    left: 0;
+    bottom: 0;    
+}

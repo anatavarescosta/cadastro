@@ -1,0 +1,25 @@
+.dropdown-select{
+    width: 99%; 
+    height: 2.3em;
+    color: #474647;
+    background-color: #fff;
+    margin: 0;   
+    padding: 0.4em;
+    text-indent: 0.3em;
+    
+    border: 1px solid #ccc;
+    border-radius: 10px 10px 0px 10px;
+    -moz-border-radius: 10px 10px 0px 10px;
+    -webkit-border-radius: 10px 10px 0px 10px;
+    cursor: hand; 
+}
+.dropdown-menu, .dropdown-menu-item {
+    padding: 5px;
+}
+.dropdown-menu-item:hover {
+    background-color: rgba(237, 237, 237, 0.75);
+    cursor: pointer;
+}
+.dropdown-menu-search{
+    margin-bottom: 10px;
+}

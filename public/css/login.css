@@ -1,0 +1,47 @@
+.login{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url('../images/bkg-autorizador.png');
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-size:cover;
+}
+.bloco-form{
+    background-color: rgba(255,255,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Define altura da div pai */      
+    width: 50vw;
+    padding-bottom: 40px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 480px) {
+    .bloco-form{
+        width: 100vw;
+        min-height: 100vh;
+    }
+}
+.form-login{
+    width: 65%;
+    height: auto;
+    padding: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px; 
+}
+.form-cadben{
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px; 
+}
+.logo-form{
+    display: flex;
+    justify-content: center;
+}
+
+.esqueci-senha{
+    color: #008c50ff;
+
+}
